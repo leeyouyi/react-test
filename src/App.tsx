@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Button from "./components/Button/Button";
+import Counter from "./components/Counter/Counter";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Button> 我是按鈕 </Button>
+      <Counter />
     </div>
   );
 }
