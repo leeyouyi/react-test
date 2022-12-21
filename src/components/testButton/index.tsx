@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({
+const TestButton = ({
   children,
   ...other
 }: React.HTMLAttributes<HTMLElement>): JSX.Element => {
@@ -9,4 +9,4 @@ const Button = ({
   return <button {...other}>{child}</button>;
 };
 
-export default Button;
+export default TestButton;
